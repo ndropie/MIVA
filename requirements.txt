@@ -1,0 +1,7 @@
+downlaod ollama setup from ollama
+
+ using qwen3 4B 
+ollama pull qwen3:4B-instruct
+
+from the MIVA Directory
+    pip install ollama 
