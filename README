@@ -7,3 +7,46 @@
 | Piper TTS         | Text → voice              | ✅      |
 | sounddevice       | Microphone recording      | ✅      |
 | winsound          | Windows audio playback    | ✅      |
+
+
+What each part does
+
+CORE/
+Main MIVA code.
+
+main.py
+Starts MIVA and connects everything together.
+
+MIVA starts
+   ↓
+Listen → Think → Speak
+
+voice.py
+Handles microphone + Faster-Whisper.
+
+brain.py
+Handles Qwen/Ollama.
+
+speech.py
+Handles Piper TTS + audio playback.
+
+pc_control/
+Everything related to controlling the computer.
+
+pc_control/
+│
+├── applications.py → Open/close applications
+├── files.py        → File/folder operations
+└── system.py       → System information/actions
+
+voices/
+Your Piper voice model.
+
+requirements.txt
+Python dependencies.
+
+README.md
+Documentation for MIVA.
+
+.gitignore
+Keeps unnecessary/private files out of GitHub.
