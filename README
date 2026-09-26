@@ -1,0 +1,9 @@
+| Requirement       | Purpose                   | Status |
+| ----------------- | ------------------------- | ------ |
+| Python 3.14       | Main programming language | ✅      |
+| Faster-Whisper    | Voice → text              | ✅      |
+| Ollama            | Local LLM runtime         | ✅      |
+| Qwen3 4B Instruct | MIVA's brain              | ✅      |
+| Piper TTS         | Text → voice              | ✅      |
+| sounddevice       | Microphone recording      | ✅      |
+| winsound          | Windows audio playback    | ✅      |

@@ -1,0 +1,9 @@
+
+faster-whisper==1.2.1
+ollama==0.6.2
+sounddevice==0.5.6
+piper-tts==1.8.0
+
+# PC control
+pyautogui
+psutil
